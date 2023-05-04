@@ -9,6 +9,3 @@
         id: get-secret
 ```
 
-See the [actions tab](https://github.com/actions/javascript-action/actions) for runs of this action! :rocket:
-
-https://github.com/marketplace/actions/key-vault-explorer?version=v1.0.0

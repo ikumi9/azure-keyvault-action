@@ -4073,7 +4073,7 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 const core = __nccwpck_require__(186);
-const exec = __nccwpck_require__(514)
+const exec = __nccwpck_require__(514);
 
 
 async function run() {
@@ -4081,7 +4081,7 @@ async function run() {
     const keyvault = core.getInput('keyvault',{required:true});
     const secret = core.getInput('secret',{required:true});
 
-   const secret_val = exec.exec(`az keyvault secret show --name ${secret} --vault-name ${keyvault} --query "value"`)
+   const secret_val = exec.exec(`az keyvault secret show --name ${secret} --vault-name ${keyvault} --query "value"`);
     core.setOutput('secret', secret_val);
 
   } catch (error) {
