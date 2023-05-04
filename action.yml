@@ -1,5 +1,8 @@
-name: 'Azure KeyVault'
+name: 'Key Vault Explorer'
 description: 'Get secret and secret value from Azure Key Vault'
+branding:
+  color: purple
+  icon: lock
 inputs:
   keyvault:  # id of input
     description: 'Name of keyvault'
