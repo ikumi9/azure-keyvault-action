@@ -18,14 +18,15 @@
     "Actions",
     "JavaScript"
   ],
-  "author": "",
+  "author": "Isaac Kumi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/actions/javascript-action/issues"
   },
   "homepage": "https://github.com/actions/javascript-action#readme",
   "dependencies": {
-    "@actions/core": "^1.10.0"
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.36.1",

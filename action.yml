@@ -1,13 +1,15 @@
-name: 'Wait'
-description: 'Wait a designated number of milliseconds'
+name: 'Azure KeyVault'
+description: 'Get secret and secret value from Azure Key Vault'
 inputs:
-  milliseconds:  # id of input
-    description: 'number of milliseconds to wait'
+  keyvault:  # id of input
+    description: 'Name of keyvault'
     required: true
-    default: '1000'
+  secret:
+    description: "Name of key vault secret"
+    required: true
 outputs:
-  time: # output will be available to future steps
-    description: 'The current time after waiting'
+  secret: # output will be available to future steps
+    description: ''
 runs:
   using: 'node16'
   main: 'dist/index.js'
