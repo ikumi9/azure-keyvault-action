@@ -1,3 +1,4 @@
+
 name: 'Key Vault Explorer'
 description: 'Get secret and secret value from Azure Key Vault'
 branding:
